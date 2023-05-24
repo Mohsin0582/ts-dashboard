@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Mohsin0582/ts-dashboard.git/precache-manifest.5c907bca78ed522e57b86d4b7cff67c9.js"
+  "/ts-dashboard/precache-manifest.f3c51bd425788c78cbd899eba9aa13e4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Mohsin0582/ts-dashboard.git/index.html", {
+workbox.routing.registerNavigationRoute("/ts-dashboard/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
